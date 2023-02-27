@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+
+}
+
+
+
+header img{
+    float: left;
+    height: 100%;
+    border-radius: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+header {
+    height: 200px;
+    padding: 20px;
+    background-color: dimgray;
+    
+    
+
+}
+header div {
+    color: goldenrod;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0;
+    
+    position: sticky;
+    top: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    
+}
+
+nav ul {
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px 10px;
+    cursor: pointer;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 3px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: goldenrod;
+    
+}
+nav ul li:hover {
+    text-decoration: underline; color: goldenrod;
+    background-color: black;
+    border-radius: 5px;
+    border-color: goldenrod;
+    
+}
+
+.contenido #sobre-mi p {
+    font-family: 'Mynerve', cursive;
+}
+
+#sobre-mi {
+    
+    padding: 20px 0;
+    font-weight: bold;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    letter-spacing: 3px;
+
+    
+    
+    
+}
+
+article {
+    text-indent: 40px;
+    
+
+    
+}
+
+
+article p {
+    padding: 20px 20px 10px 20px;
+    
+}
+
+.contenido {
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 20px 30px;
+    background-color: wheat;
+
+}
+.contenido dt {
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 20px 20px;
+}
+
+.contenido dd {
+    color: green;
+    padding: 10px 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-decoration: solid;
+}
+
+.contenido .clasecontacto p {
+    margin: 10px 10px 30px;
+
+    
+}
+.contenido .clasecontacto form {
+
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    
+    
+}
+
+
+
+
+
+[data-content] {
+    display: none;
+}
+
+.active[data-content] {
+    display: block;
+}
+
+
+

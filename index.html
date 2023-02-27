@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV </title>
+    <link rel="stylesheet" href="estios.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto:wght@100&display=swap" rel="stylesheet">    
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    
+
+    <header id="encabezado" >
+
+        <img src="imagenes/20220702_223507 b.jpg" alt="foto-perfil" >
+        <div>
+            <h1>CV Alejandro Mencia</h1>
+            <h2>Técnico electromecánico</h2>
+            <h2>Administrativo area Calidad de procesos</h2>
+            <h2>Programagador WEB</h2>
+
+            <h2>Bienvenido a mi CV!</h2>
+        </div>
+        
+    
+    </header>
+
+    <nav id="nav-bar" >
+        <ul id="menu">
+            <li data-target="#sobre-mi">Sobre mi</li>
+            <li data-target="#experiencia">Experiencia</li>
+            <li data-target="#estudios">Estudios</li>
+            <li data-target="#portafolio">Portafolio</li>
+            <li data-target="#contacto">Contacto</li>
+        </ul>
+
+    </nav>
+
+    <div class="contenido">
+    
+        <article data-content id="sobre-mi" class="active">
+            
+            <h2>Un poco sobre mi</h2>
+            <p>Nací y me crie en Rio Grande, Tierra del Fuego, polo industrial de la provincia. Desde temprana edad y pasando por una escuela técnica en secundaria, desarrolle un gran interés por las ciencias exactas y la tecnología en general.</p>
+            <p>Hoy gracias a mis estudios realizados puedo trabajar de todo lo que me gusta hacer y ademas seguir estudiando para mantenerme al día en todos los campos de mi interés incluyendo la programación WEB.</p>
+            <p>Disfruto de estudiar lenguas extranjeras, artes marciales y todo lo referente al avance tecnológico ademas de pasar mis tiempos libres en familia.</p>
+            <p>Actualmente estudio programación web y espero dentro de poco poder ingresar a este campo de trabajo tan interesante.</p>
+        </article>
+
+        <section data-content id="experiencia" >
+            
+            <dl>
+                <dt>AYUDANTE DE ALBAÑIL</dt>
+                <dd>Julio-Agosto 2007</dd>
+                <dt>CLASES PARTICULARES de ingles, matemática, física</dt>
+                <dd>2009-2010</dd>
+                <dt>ADMINISTRATIVO AREA CALIDAD EN ECOSOL S.A.</dt>
+                <dd>Julio de 2012 hasta Julio de 2018</dd>
+                <dd>Control, medición y registro de calidad en procesos</dd>
+                <dd>Redacción de informes</dd>
+                <dd>Capacitaciones del personal ingresante en cuanto a calidad</dd>
+                <dd>Atención al cliente vía correo electrónico, teléfono y personalmente</dd>
+                <dd>Stock de pañol</dd>
+                <dd>Seguimiento de programa de mantenimiento preventivo, plan de capacitación anual y programa de seguridad e higiene</dd>
+                <dt>AUTONOMO</dt>
+                <dd>2019 hasta la actualidad</dd>
+                <dd>Electricidad automotriz</dd>
+                <dd>Herrería de obra</dd>
+                <dd>Electricidad domiciliaria</dd>
+                <dd>Servicio técnico motores electricos</dd>
+                
+                
+            </dl>
+        </section>
+
+        <section data-content id="estudios" >
+            
+            <dl>
+                <dt>CPET Rio Grande</dt>
+                <dd>Secundario Polimodal completo</dd>
+                <dd>Orientación: producción de bienes y servicios</dd>
+                <dt>Trayecto técnico profesional</dt>
+                <dd>Cursado a la par de polimodal</dd>
+                <dd>Tecnico en equipos e instalaciones electromecanicas</dd>
+                <dt>Curso: introducción ISO 9001:2008</dt>
+                <dd>Finalizado</dd>
+                <dt>Curso: Programacion WEB - Argentina Programa</dt>
+                <dd>Cursando</dd>
+                
+                
+            </dl>
+        </section>
+
+        <section data-content id="portafolio" >
+            <h2>PAGINA EN CONSTRUCCION</h2>
+            <p>este es el portafolio</p>
+            <p>este es el portafolio</p>
+            <p>este es el portafolio</p>
+            <p>este es el portafolio</p>
+            <p>este es el portafolio</p>
+        </section>
+
+
+        <section data-content id="contacto" class="clasecontacto">
+
+            <div>
+                <p>Puede comunicarse conmigo al whatsapp:</p>
+                <p>+5492964620366</p>
+                <p>Tambien puede enviar un correo electronico a la siguiente dirección:</p>
+                <p>alejandroemencia@gmail.com</p>
+                <p>Tambien puede enviar un mensaje completando el siguiente formulario:</p>
+            </div>
+
+            <form  action="#" >
+                
+
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre">
+                <label for="whatsapp">Whatsapp</label>
+                <input type="text" placeholder="Ingrese num. whatsapp">
+                <label for="correo">e-mail</label>
+                <input type="email" placeholder="Ingrese e-mail" required>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="20" rows="5" placeholder="ingrese su mensaje"></textarea>
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </div>
+    
+</body>
+
+</html>
